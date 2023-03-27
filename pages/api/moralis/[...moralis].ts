@@ -4,7 +4,7 @@ export default MoralisNextApi({
   apiKey: process.env.MORALIS_API_KEY || '',
   authentication: {
     //domain: 'ethereum-boilerplate.dapp',
-    domain: 'vercel.app'
+    domain: 'https://your-wallet-tracker.vercel.app/'
     uri: process.env.NEXTAUTH_URL || '',
     timeout: 120,
   },
